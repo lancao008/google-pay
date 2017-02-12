@@ -27,5 +27,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.0.0'
     testCompile 'junit:junit:4.12'
 //    compile 'com.github.icodeu:CommonAdapter:v1.0'
-
+    compile 'com.github.shaogz1077:google-pay:1'
 }
