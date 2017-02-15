@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/googlepay.iml" filepath="$PROJECT_DIR$/googlepay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/googlewalletlib/googlewalletlib.iml" filepath="$PROJECT_DIR$/googlewalletlib/googlewalletlib.iml" />
     </modules>
   </component>
 </project>
