@@ -31,8 +31,8 @@ public class PayTools {
      * @param orderid 商品订单id
      */
     public void getQuery(final String orderid) {
-        //googlekey app上传google市场后可在后台找到这个googlekey
-        String base64EncodedPublicKey = "googlekey";
+        //base64EncodedPublicKey app上传google市场后可在后台找到这个base64EncodedPublicKey
+        String base64EncodedPublicKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkf7t0QABVZR3UPqGQKzWkot7laWQH7fp7CPVCtfcTJdf3PBAhy7CfbHDZExuQyb2JH3iUTOn3OjpIhUHLK3UKbLdZ4M5l8RGfZDuPmywg+mnrGzildWsnqMNxf2Pta/0QNEYyzpfAZ05HhCXhlPiQ0QYbM9T1K81DwtTLPKGF/MQk4jizGkeu1fftAQpXQ1Bfd2MrK4fhKgjDxzo3IRnJPBLFFKIV94ojegu8jmC1F7u23PPMSWpYF+b91c+GwFxSMB6GyFh+tZxb5/CEn+bPqnfsKN3pfA+gC4CQ8qA9Y2ExOe2zGMC9DEH5f6ivjISFXffwrn8PLYLmPGJuWfUqwIDAQAB";
         // 创建IabHelper来验证key
         // Log.d(TAG, "创建IabHelper");
         mHelper = new IabHelper(activity, base64EncodedPublicKey);
@@ -85,7 +85,7 @@ public class PayTools {
     // 购买
     public void buy() {
         // 建议从服务器发过来
-        String base64EncodedPublicKey = "googlekey";
+        String base64EncodedPublicKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkf7t0QABVZR3UPqGQKzWkot7laWQH7fp7CPVCtfcTJdf3PBAhy7CfbHDZExuQyb2JH3iUTOn3OjpIhUHLK3UKbLdZ4M5l8RGfZDuPmywg";
         // 检测key
         mHelper = new IabHelper(activity, base64EncodedPublicKey);
         // 是否需要输出调试内容
